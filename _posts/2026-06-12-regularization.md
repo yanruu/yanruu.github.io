@@ -1,5 +1,6 @@
 ---
 title: "[회귀분석 #4] 과적합과 정규화 — Ridge, Lasso, ElasticNet"
+date: 2026-06-12 09:40:00
 categories:
   - ML
 tags:
