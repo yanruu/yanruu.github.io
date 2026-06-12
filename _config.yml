@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "yanruu"
-  avatar : "/assets/images/bio-photo.jpg"
+  #avatar : "/assets/images/bio-photo.jpg"
   bio    : "AI/ML을 공부하는 개발자"
   links:
     - label: "GitHub"
