@@ -1,0 +1,22 @@
+---
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* 본문 글씨 크기 줄이기 */
+body {
+  font-size: 14px;
+}
+
+.page__content p {
+  font-size: 0.85em;
+}
+
+/* 포스트 제목 스타일 변경 */
+.archive__item-title a,
+.page__title {
+  color: #000000 !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+}
