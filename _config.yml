@@ -19,7 +19,7 @@ description: >-
   AI/ML 공부 기록. 회귀분석부터 LSTM, TFT까지.
 twitter_username:               # 없으면 비워요
 github_username: yanruu
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dark
 search: true
 
 future: true
