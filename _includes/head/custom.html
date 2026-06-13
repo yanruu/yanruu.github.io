@@ -10,3 +10,22 @@
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('pre code').forEach(function(codeBlock) {
+    var button = document.createElement('button');
+    button.innerText = 'Copy';
+    button.style.cssText = 'position:absolute;top:6px;right:8px;padding:3px 8px;font-size:12px;cursor:pointer;background:#555;color:#fff;border:none;border-radius:4px;opacity:0.7;';
+    var pre = codeBlock.parentNode;
+    pre.style.position = 'relative';
+    button.addEventListener('click', function() {
+      navigator.clipboard.writeText(codeBlock.innerText).then(function() {
+        button.innerText = 'Copied!';
+        setTimeout(function() { button.innerText = 'Copy'; }, 2000);
+      });
+    });
+    pre.appendChild(button);
+  });
+});
+</script>
