@@ -1,6 +1,6 @@
 ---
 title: "[회귀분석 #5] 모델 성능 평가 — R², RMSE, MAE, MAPE"
-date: 2026-06-12 12:00:00 +0900
+date: 2026-06-13 12:00:00 +0900
 categories:
   - ML
 tags:
