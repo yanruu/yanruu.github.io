@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     button.addEventListener('click', function() {
       navigator.clipboard.writeText(codeBlock.innerText).then(function() {
         button.innerText = '✔️';
-        setTimeout(function() { button.innerText = 'Copy'; }, 2000);
+        setTimeout(function() { button.innerText = '▶️'; }, 2000);
       });
     });
     pre.appendChild(button);
