@@ -15,14 +15,14 @@
 document.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('pre code').forEach(function(codeBlock) {
     var button = document.createElement('button');
-    button.innerText = '▶️';
+    button.innerText = '▶';
     button.style.cssText = 'position:absolute;top:6px;right:8px;padding:3px 8px;font-size:12px;cursor:pointer;background:#555;color:#fff;border:none;border-radius:4px;opacity:0.7;';
     var pre = codeBlock.parentNode;
     pre.style.position = 'relative';
     button.addEventListener('click', function() {
       navigator.clipboard.writeText(codeBlock.innerText).then(function() {
         button.innerText = '✔️';
-        setTimeout(function() { button.innerText = '▶️'; }, 2000);
+        setTimeout(function() { button.innerText = '▶'; }, 2000);
       });
     });
     pre.appendChild(button);
