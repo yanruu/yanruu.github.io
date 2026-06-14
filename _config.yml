@@ -112,3 +112,9 @@ tag_archive:
     theme: "github-light"
     issue_term: "pathname"
 
+
+collections:
+  posts:
+    output: true
+
+permalink: /:title/
