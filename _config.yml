@@ -7,7 +7,6 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
@@ -21,9 +20,7 @@ twitter_username:               # 없으면 비워요
 github_username: yanruu
 minimal_mistakes_skin: dark 
 search: true
-
 future: true
-
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -34,7 +31,6 @@ permalink: /:categories/:title/
 timezone: Asia/Seoul
 include:
   - _pages
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -46,7 +42,6 @@ include:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -55,7 +50,6 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-
 author:
   name   : ""
   #avatar : "/assets/images/bio-photo.jpg"
@@ -64,7 +58,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/yanruu"
-
 footer:
   links:
     - label: "Twitter"
@@ -76,7 +69,6 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
-
 defaults:
   # _posts
   - scope:
@@ -98,22 +90,17 @@ defaults:
     values:
       layout: single
       author_profile: true
-
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
-
-  comments:
+comments:
   provider: "utterances"
   utterances:
     theme: "github-light"
     issue_term: "pathname"
-
-
 collections:
   posts:
     output: true
-
