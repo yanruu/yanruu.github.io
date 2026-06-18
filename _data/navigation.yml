@@ -1,4 +1,4 @@
-main:
+docs:
   - title: "AI 모델 스터디"
     children:
       - title: "회귀분석 시리즈"
