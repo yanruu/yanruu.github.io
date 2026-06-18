@@ -1,0 +1,40 @@
+{% assign locale = include.locale | default: site.locale %}
+<nav class="nav__list">
+  {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ site.data.ui-text[locale].menu_label | default: "Toggle Menu" }}</label>
+  <ul class="nav__items">
+    {% for navname in include.nav %}
+      {% assign navigation = site.data.navigation[navname] %}
+      {% for nav in navigation %}
+        <li>
+          {% if nav.children %}
+          <details open>
+            <summary class="nav__sub-title">{{ nav.title }}</summary>
+            <ul>
+              {% for sub in nav.children %}
+                <li>
+                  {% if sub.children %}
+                  <details>
+                    <summary>{{ sub.title }}</summary>
+                    <ul>
+                      {% for child in sub.children %}
+                        <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
+                      {% endfor %}
+                    </ul>
+                  </details>
+                  {% else %}
+                  <a href="{{ sub.url | relative_url }}"{% if sub.url == page.url %} class="active"{% endif %}>{{ sub.title }}</a>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </details>
+          {% else %}
+            <a href="{{ nav.url | relative_url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
+          {% endif %}
+        </li>
+      {% endfor %}
+    {% endfor %}
+  </ul>
+</nav>
