@@ -117,4 +117,3 @@ collections:
   posts:
     output: true
 
-permalink: /:title/
