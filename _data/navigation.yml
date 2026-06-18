@@ -1,33 +1,64 @@
-docs:
+main:
   - title: "AI 모델 스터디"
     children:
       - title: "회귀분석 시리즈"
         children:
           - title: "#1 선형 회귀란"
-            url: /1_linear-regression-intro/
+            url: /ml/linear-regression-intro/
           - title: "#2 OLS와 경사하강법"
-            url: /2_ols-gradient-descent/
+            url: /ml/ols-gradient-descent/
           - title: "#3 다중 선형 회귀"
-            url: /3_multiple-linear-regression/
+            url: /ml/multiple-linear-regression/
           - title: "#4 과적합과 정규화"
-            url: /regularization/
+            url: /ml/regularization/
           - title: "#5 평가지표"
-            url: /evaluation-metrics/
+            url: /ml/evaluation-metrics/
       - title: "시계열 시리즈"
         children:
           - title: "#1 시계열 데이터 기초"
-            url: /time-series-basics/
+            url: /ml/time-series-basics/
           - title: "#2 ARIMA"
-            url: /arima/
+            url: /ml/arima/
       - title: "딥러닝 시리즈"
         children:
           - title: "#1 RNN"
-            url: /rnn/
+            url: /ml/rnn/
           - title: "#2 LSTM 단변량"
-            url: /lstm-univariate/
+            url: /ml/lstm-univariate/
           - title: "#3 다변량 LSTM"
-            url: /lstm-multivariate/
+            url: /ml/lstm-multivariate/
           - title: "#4 TFT"
-            url: /tft/
+            url: /ml/tft/
           - title: "백테스팅"
-            url: /backtesting/
+            url: /ml/backtesting/
+
+  - title: "AWS 자격증"
+    children:
+      - title: "Cloud Practitioner 학습"
+        children:
+          - title: "#1 AWS란 무엇인가"
+            url: /aws/aws-cloud-overview/
+          - title: "#2 공유 책임 모델과 IAM"
+            url: /aws/aws-shared-responsibility-iam/
+          - title: "#3 보안 서비스와 거버넌스"
+            url: /aws/aws-security-governance/
+          - title: "#4 컴퓨팅 서비스"
+            url: /aws/aws-compute-services/
+          - title: "#5 스토리지 서비스"
+            url: /aws/aws-storage-services/
+          - title: "#6 네트워킹 서비스"
+            url: /aws/aws-networking-services/
+          - title: "#7 데이터베이스 서비스"
+            url: /aws/aws-database-services/
+          - title: "#8 AI/ML과 분석"
+            url: /aws/aws-ai-ml-analytics/
+          - title: "#9 요금제와 비용 관리"
+            url: /aws/aws-pricing-billing/
+      - title: "모의고사"
+        children:
+          - title: "#1 Domain 1~2 (클라우드 개념·보안)"
+            url: /aws/aws-mock-exam-1/
+          - title: "#2 Domain 3 (컴퓨팅·스토리지·DB 등)"
+            url: /aws/aws-mock-exam-2/
+          - title: "#3 전체 종합"
+            url: /aws/aws-mock-exam-3/
