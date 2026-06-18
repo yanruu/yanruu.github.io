@@ -13,9 +13,14 @@
             <summary class="nav__sub-title">{{ nav.title }}</summary>
             <ul>
               {% for sub in nav.children %}
+                {% assign sub_active = false %}
+                {% if sub.url == page.url %}{% assign sub_active = true %}{% endif %}
+                {% for child in sub.children %}
+                  {% if child.url == page.url %}{% assign sub_active = true %}{% endif %}
+                {% endfor %}
                 <li>
                   {% if sub.children %}
-                  <details>
+                  <details {% if sub_active %}open{% endif %}>
                     <summary>{{ sub.title }}</summary>
                     <ul>
                       {% for child in sub.children %}
