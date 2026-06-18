@@ -1,33 +1,33 @@
 docs:
-  - title: "회귀분석 시리즈"
+  - title: "AI 모델 스터디"
     children:
-      - title: "#1 선형 회귀란"
-        url: /ml/linear-regression-intro/
-      - title: "#2 OLS와 경사하강법"
-        url: /ml/ols-gradient-descent/
-      - title: "#3 다중 선형 회귀"
-        url: /ml/multiple-linear-regression/
-      - title: "#4 과적합과 정규화"
-        url: /ml/regularization/
-      - title: "#5 평가지표"
-        url: /ml/evaluation-metrics/
-
-  - title: "시계열 시리즈"
-    children:
-      - title: "#1 시계열 데이터 기초"
-        url: /ml/time-series-basics/
-      - title: "#2 ARIMA"
-        url: /ml/arima/
-
-  - title: "딥러닝 시리즈"
-    children:
-      - title: "#1 RNN"
-        url: /ml/rnn/
-      - title: "#2 LSTM 단변량"
-        url: /ml/lstm-univariate/
-      - title: "#3 다변량 LSTM"
-        url: /ml/lstm-multivariate/
-      - title: "#4 TFT"
-        url: /ml/tft/
-      - title: "백테스팅"
-        url: /ml/backtesting/
+      - title: "회귀분석 시리즈"
+        children:
+          - title: "#1 선형 회귀란"
+            url: /ml/linear-regression-intro/
+          - title: "#2 OLS와 경사하강법"
+            url: /ml/ols-gradient-descent/
+          - title: "#3 다중 선형 회귀"
+            url: /ml/multiple-linear-regression/
+          - title: "#4 과적합과 정규화"
+            url: /ml/regularization/
+          - title: "#5 평가지표"
+            url: /ml/evaluation-metrics/
+      - title: "시계열 시리즈"
+        children:
+          - title: "#1 시계열 데이터 기초"
+            url: /ml/time-series-basics/
+          - title: "#2 ARIMA"
+            url: /ml/arima/
+      - title: "딥러닝 시리즈"
+        children:
+          - title: "#1 RNN"
+            url: /ml/rnn/
+          - title: "#2 LSTM 단변량"
+            url: /ml/lstm-univariate/
+          - title: "#3 다변량 LSTM"
+            url: /ml/lstm-multivariate/
+          - title: "#4 TFT"
+            url: /ml/tft/
+          - title: "백테스팅"
+            url: /ml/backtesting/
