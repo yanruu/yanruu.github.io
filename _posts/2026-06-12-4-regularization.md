@@ -3,7 +3,7 @@ title: "[회귀분석 #4] 과적합과 정규화 — Ridge, Lasso, ElasticNet"
 date: 2026-06-12 09:40:00 +0900
 slug: regularization
 categories:
-  - 머신러닝
+  - ML
 tags:
   - 회귀분석
   - 정규화
