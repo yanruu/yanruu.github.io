@@ -3,7 +3,7 @@ title: "[시계열 #1] 시계열 데이터 기초 — 정상성, ACF/PACF"
 date: 2026-06-13 09:10:00 +0900
 slug: time-series-basics
 categories:
-  - 머신러닝
+  - ML
 tags:
   - 시계열
   - 정상성
