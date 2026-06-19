@@ -3,7 +3,7 @@ title: "[딥러닝 #2] LSTM 구조와 단변량 예측"
 date: 2026-06-13 09:40:00 +0900
 slug: lstm-univariate
 categories:
-  - 머신러닝
+  - ML
 tags:
   - 딥러닝
   - LSTM
