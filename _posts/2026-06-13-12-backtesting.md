@@ -3,7 +3,7 @@ title: "[백테스팅] Walk-forward Validation으로 모델 검증하기"
 date: 2026-06-13 10:10:00 +0900
 slug: backtesting
 categories:
-  - 머신러닝
+  - ML
 tags:
   - 백테스팅
   - 검증
