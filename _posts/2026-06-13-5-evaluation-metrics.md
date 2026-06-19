@@ -3,7 +3,7 @@ title: "[회귀분석 #5] 모델 성능 평가 — R², RMSE, MAE, MAPE"
 date: 2026-06-13 09:00:00 +0900
 slug: evaluation-metrics
 categories:
-  - 머신러닝
+  - ML
 tags:
   - 회귀분석
   - 평가지표
