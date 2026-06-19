@@ -1,6 +1,7 @@
 ---
 title: "[회귀분석 #2] OLS와 경사하강법으로 최적의 직선 찾기"
 date: 2026-06-12 09:10:00 +0900
+slug: ols-gradient-descent
 categories:
   - ML
 tags:
