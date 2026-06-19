@@ -1,6 +1,7 @@
 ---
 title: "[회귀분석 #1] 선형 회귀란 무엇인가"
 date: 2026-06-12 09:00:00 +0900
+slug: linear-regression-intro
 categories:
   - ML
 tags:
