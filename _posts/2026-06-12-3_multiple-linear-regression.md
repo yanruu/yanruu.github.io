@@ -1,6 +1,7 @@
 ---
 title: "[회귀분석 #3] 다중 선형 회귀와 행렬 표현"
 date: 2026-06-12 09:20:00 +0900
+slug: multiple-linear-regression
 categories:
   - ML
 tags:
